@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- rock is 1 and paper is 2 and scissors is 3
+        the computer choice is generated computerChoiceely with a number between 1 to 3 inclusive 
+        -->
+        <p>Rock Scissors paper game</p>
+        <button onclick="gameStart(1);">Rock</button>
+
+        <button onclick="gameStart(2);">Paper</button>
+
+        <button onclick="gameStart(3);">Scissors</button>
+
+        <button onclick="resetScore();">Reset Score</button>
+        <p class="js-move"></p>
+        <p class="js-res"></p>
+        <p class="js-score-res"></p>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
