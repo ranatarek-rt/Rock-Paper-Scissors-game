@@ -67,3 +67,22 @@ function displayText(text){
    res.innerHTML=text;
 
 }
+
+
+let isAutoPlaying = false;
+let intervalId ;
+
+function autoPlay(){
+    if(!isAutoPlaying){
+        intervalId = setInterval(function (){
+        const playerAutoMove = Math.floor(Math.random() * 3) + 1;
+        gameStart(playerAutoMove);
+        },1000);
+        isAutoPlaying = true;
+    }else{
+        clearInterval(intervalId);
+        isAutoPlaying = false;
+    }
+
+}
+

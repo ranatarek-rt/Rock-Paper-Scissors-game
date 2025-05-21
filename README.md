@@ -15,7 +15,7 @@ A simple **Rock Paper Scissors** game built with **HTML, CSS, and JavaScript**. 
 - Displays both the player’s and computer’s moves each round.
 - Responsive buttons with intuitive icons.
 - Easy to reset the game score.
-
+- Auto play Button for Computer VS Computer Game
 ## 📁 Project Files
 
 - `index.html` — The game interface and buttons.
